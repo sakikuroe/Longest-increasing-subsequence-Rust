@@ -1,4 +1,4 @@
-# Longest Increasing Subsequence(LIS) in Rust
+# Longest Increasing Subsequence (LIS) in Rust
 
 Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence.
 
@@ -36,7 +36,7 @@ longest_increasing_subsequence_rust = { git = "https://github.com/sakikuroe/Long
 O(NlogN) (where N is the length of vector)
 
 ## Algorithm
-Dinamic programming(DP) with binary search
+Dinamic programming (DP) with binary search
 
 ## Note
 The trait Ord must be implemented for the array elements.
