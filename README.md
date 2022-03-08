@@ -1,6 +1,6 @@
-# Longest Increasing Subsequence in Rust
+# Longest Increasing Subsequence(LIS) in Rust
 
-## Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence.
+Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence.
 
 ## Exsample
 
