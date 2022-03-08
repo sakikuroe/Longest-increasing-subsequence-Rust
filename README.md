@@ -39,4 +39,5 @@ O(NlogN) (where N is the length of vector)
 Dinamic programming (DP) with binary search
 
 ## Note
-The trait Ord must be implemented for the array elements.
+- The trait Ord must be implemented for the array elements.
+- If there are multiple such vectors, the vector created is not uniquely defined.
