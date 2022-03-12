@@ -1,6 +1,6 @@
 # Longest Increasing Subsequence (LIS) in Rust
 
-Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence in an O(NlogN) time.
+Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence.
 
 ## Exsample
 
