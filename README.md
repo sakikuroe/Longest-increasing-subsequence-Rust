@@ -1,6 +1,6 @@
 # Longest Increasing Subsequence (LIS) in Rust
 
-Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence.
+Find one of the strictly (or weakly) longest increasing (or decreasing) subsequence in an O(NlogN) time.
 
 ## Exsample
 
@@ -25,7 +25,7 @@ fn it_works() {
 }
 ```
 
-## To use 
+## Usage 
 `Cargo.toml`  
 ```
 [dependencies]
