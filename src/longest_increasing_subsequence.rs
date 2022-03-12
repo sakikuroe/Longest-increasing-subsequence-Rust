@@ -14,13 +14,13 @@ where
         let mut prev = vec![None; self.len()];
         for i in 0..self.len() {
             let j = dp.upper_bound(self[i].clone());
-            if j > 0 {
-                prev[i] = Some(dp[j - 1].clone());
-            }
             if dp.len() == j {
                 dp.push(self[i].clone());
             } else {
                 dp[j] = self[i].clone()
+            }
+            if j > 0 {
+                prev[i] = Some(dp[j - 1].clone());
             }
         }
 
@@ -49,13 +49,13 @@ where
         let mut prev = vec![None; self.len()];
         for i in 0..self.len() {
             let j = dp.lower_bound(self[i].clone());
-            if j > 0 {
-                prev[i] = Some(dp[j - 1].clone());
-            }
             if dp.len() == j {
                 dp.push(self[i].clone());
             } else {
                 dp[j] = self[i].clone()
+            }
+            if j > 0 {
+                prev[i] = Some(dp[j - 1].clone());
             }
         }
 
