@@ -33,7 +33,7 @@ longest_increasing_subsequence_rust = { git = "https://github.com/sakikuroe/Long
 ```
 
 ## Performance
-O(NlogN) (where N is the length of vector)
+$O(N\log N)$ (where $N$ is the length of vector)
 
 ## Algorithm
 Dinamic programming (DP) with binary search
