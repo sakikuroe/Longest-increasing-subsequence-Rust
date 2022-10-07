@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["longest_increasing_subsequence_rust"];
